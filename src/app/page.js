@@ -17,12 +17,7 @@ export default function Home() {
             }
           >
             <div className="flex flex-col items-center justify-between">
-              <Image
-                src="/1.png"
-                alt="project picture"
-                fill
-              />
-              
+              <Image src="/1.png" alt="project picture" fill />
             </div>
           </Link>
           <Link
@@ -59,6 +54,15 @@ export default function Home() {
             }
           >
             <Image src="/6.png" alt="project picture" fill />
+          </Link>
+          <Link href={""}>
+            <Image src="/chat app.png" alt="project picture" fill />
+          </Link>
+          <Link href={""}>
+            <Image src="/meats.png" alt="project picture" fill />
+          </Link>
+          <Link href={" https://food-ordering-app-frontend-mstf.onrender.com"}>
+            <Image src="/dashboard.png" alt="project picture" fill />
           </Link>
         </Divz>
         <p className=" p-3 text-1xl font-bold text-slate-100 text-center">
